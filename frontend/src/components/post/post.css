@@ -1,0 +1,132 @@
+.post{
+    /* width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin:30px 0 ; */
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    width: 80vw;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    /* margin: auto; */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:  lightblue;
+    /* position: absolute;
+    
+    left: 25%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.postWrapper{
+       padding: 10px;
+       background-color:rgb(173, 187, 187);
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postTopLeft{
+    display: flex;
+   align-items: center;
+
+}
+.postProfileImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.postUsername{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+
+}
+.postDate{
+    font-size: 12px;
+}
+.postCenter{
+   margin: 20 0  px;
+
+}
+.postImg{
+    margin-top: 20px;
+    margin: auto;
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+.postBottom{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+}
+.postText {
+    font-size: 15px; /* Increase font size */
+    font-weight: 600; /* Make the text bold */
+    color: #333; /* Darker text color for better contrast */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+    margin-bottom: 0px; /* Space between text lines */
+    line-height:1 ; /* Improve readability */
+     /* Slightly increase letter spacing for a cleaner look */
+     background: linear-gradient(45deg, #ff8a00, #e52e71, #9b00e8, #007bff); /* Multi-color gradient */
+     background-clip: text;
+     -webkit-background-clip: text;
+    padding: 5px 0; 
+    border-radius: 5px; 
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.postLikeCounter{
+    font-size: 15px;
+}
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+
+}
+
+.postTopRight {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #8bc6c1;
+    box-shadow: 0 0 10px rgba(122, 30, 30, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 10;
+  }
+  
+  .dropdownItem {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #f0f0f0;
+  }
+  

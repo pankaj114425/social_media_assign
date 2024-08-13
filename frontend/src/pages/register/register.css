@@ -1,0 +1,166 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.registerLogo {
+  font-size: 40px;
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(147, 156, 129, 0.5);
+  animation: blingText 2s ease-in-out infinite;
+}
+
+.registerLogo:hover {
+  transform: scale(1.1); /* Increase the size to 120% */
+}
+.registerDesc {
+  font-size: 24px;
+  margin-right: 45px;
+}
+.registerDesc:hover {
+  transform: scale(1.1); /* Increase the size to 120% */
+}
+
+.loginBox {
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginInput {
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-left: 20px;
+  
+
+}
+
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1775ee;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.loginButton:hover {
+  transform: scale(1.04); /* Increase the size to 120% */
+}
+.loginForgot {
+  text-align: center;
+  color: #1775ee;
+}
+
+.loginRegisterButton {
+  width: 60%;
+  align-self: center;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #42b72a;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.loginRegisterButton:hover {
+  transform: scale(1.08); /* Increase the size to 120% */
+}
+
+.profile-container {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+}
+
+.profile-pic img {
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: auto; /* Ensure the image covers the full height */
+  object-fit: cover;
+  position: relative;
+  left: 200px;
+  margin-bottom: 10px;
+}
+.profile_form {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  bottom: 2px;
+  margin: auto;
+}
+.upload-button {
+  font-size: 12px;
+  padding-left: 6px;
+  margin-top: 17px;
+}
+
+.hidden-input {
+  display: none;
+}
+.password-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.InputPass {
+  width: 95%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  margin-top: 10px;
+  padding-left: 20px;
+  /* padding-right: 40px; Add extra space for the eye icon */
+}

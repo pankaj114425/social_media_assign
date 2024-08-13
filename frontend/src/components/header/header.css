@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    background-color: #e4e9ee;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 25px;
+    z-index: 9999;
+    
+  }
+  
+  .logo-container .logo {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  /* .profile-container {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+   */
+  .profile-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    margin-right: 50px;
+    /* border: 2px solid salmon ; */
+  }
+  
+  .auth-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    width:100px;
+    height: 40px;
+    margin-right: 40px;
+  }
+  
+  .login-button {
+    background-color: #1775ee;
+    color: white;
+
+  }
+  
+  .login-button:hover {
+    background-color: #125bb5;
+  }
+  
+  .logout-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .logout-button:hover {
+    background-color: #c5382a;
+  }
+  

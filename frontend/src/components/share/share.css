@@ -1,0 +1,93 @@
+.share-container {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 50px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #b6da64;
+    /* position: absolute;
+    top: 90px;
+    left: 25%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  .share-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    margin-right: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .image-preview {
+    max-width: 100%;
+    max-height: 200px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .share-button {
+    padding: 10px 15px;
+    width: 50%;
+    margin: auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .share-button:hover {
+    background-color: #0056b3;
+  }
+  .shareImgContainer{
+    padding: 0 20px 10px 20px;
+    display: inline-block;
+    position: relative
+  }
+  .cancelbutton{
+    position: absolute;
+    top: 0px; /* Adjust to move the icon down */
+    /* right:20px; Adjust to move the icon left */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    cursor: pointer;
+   
+    
+  }
+  

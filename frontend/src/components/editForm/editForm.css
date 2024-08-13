@@ -1,0 +1,107 @@
+/* editForm.css */
+
+.editForm {
+    width: 100%;
+    max-width: 800px;
+   max-height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: absolute;
+    top: 9%;
+    right: 25%; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 999;
+    overflow-y: auto;
+   
+  }
+  
+  .h2 {
+    
+    /* margin-bottom: 20px; */
+    text-align: center;
+    color: #333;
+  }
+  
+  .editForm input[type="text"],
+  .editForm textarea {
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    
+  }
+  
+  .editForm textarea {
+    min-height:20px ;
+    resize: none;
+  }
+  
+  .imagePreview {
+    
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .imagePreview img {
+    max-width:20%;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .cancelbutton {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .cancelbutton:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .editForm input[type="file"] {
+    margin-bottom: 15px;
+  }
+  
+  .editForm button {
+   
+    width: 48%;
+    padding: 10px;
+    margin: 5px 1%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .editForm button:last-child {
+    background-color: #6c757d;
+  }
+  
+  .editForm button:hover {
+    opacity: 0.9;
+  }
+  
+  .editForm button:last-child:hover {
+    background-color: #5a6268;
+  }
+  
